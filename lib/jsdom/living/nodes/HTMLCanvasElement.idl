@@ -7,7 +7,7 @@ interface HTMLCanvasElement : HTMLElement {
 
   void setContext(RenderingContext context);
 //  CanvasProxy transferControlToProxy();
-
+  Canvas getNodeCanvas();
   DOMString toDataURL(optional DOMString type, any... arguments);
   void toBlob(BlobCallback _callback, optional DOMString type, any... arguments);
 };

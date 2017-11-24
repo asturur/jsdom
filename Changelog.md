@@ -1,5 +1,9 @@
 ## 9.12.0
 
+* Added the `getNodeCanvas` to HTMLCanvasElement (abogazzi)
+
+## 9.12.0
+
 * Added the `Option` named constructor. (NAlexPear)
 * Added support for the `canvas-prebuilt` npm package as an alternative to `canvas`.
 * Fixed `setTimeout()` and `setInterval()` to always return a positive integer, instead of returning `0` the first time were called. (yefremov)
